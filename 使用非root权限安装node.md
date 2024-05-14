@@ -5,6 +5,7 @@
 ```shell
 npm config get cache  # 查看位置
 rm -rf $(npm config get cache)  # 删除
+rm -rf ~/.npmrc  # 删除当前的npm配置文件
 ```
 
 2. 卸载现在的node，所有的
@@ -17,7 +18,7 @@ brew uninstall node@20  # 卸载node
 
 3. 下载node
 ```shell
-wget https://nodejs.org/dist/v20.12.2/node-v20.12.2-darwin-arm64.tar.gz  # 下载
+wget https://nodejs.org/dist/v20.12.2/node-v20.12.2-darwin-arm64.tar.gz  # 下载 darwin的arm版本
 tar zxf node-v20.12.2-darwin-arm64.tar.gz  # 解压缩
 mkdir -p ~/Apps  # 创建文件夹~/Apps
 mv node-v20.12.2-darwin-arm64 ~/Apps/  # 移动到这里
