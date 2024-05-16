@@ -16,5 +16,6 @@ npm config get registry
 
 ```shell
 # 切换electron的源为国内即可，以后下载electron 都会走这个地址
+# 参考链接https://www.electronjs.org/zh/docs/latest/tutorial/installation
 echo "ELECTRON_MIRROR=\"https://npmmirror.com/mirrors/electron/\"" >> ~/.zshrc
 ```
