@@ -42,8 +42,8 @@ sudo rm -rf /usr/local/share/man/man1/node.1
 touch ~/.zshrc
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
-
-nvm 就安装好了
+   执行完之后，将terminal重启。  
+   nvm 就安装好了。  
 
 5. nvm的使用
 ```shell
