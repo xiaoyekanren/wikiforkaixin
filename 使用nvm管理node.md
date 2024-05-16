@@ -6,7 +6,7 @@
 
 ```shell
 npm config get cache  # 查看位置
-rm -rf $(npm config get cache)  # 删除
+sudo rm -rf $(npm config get cache)  # 删除
 ```
 
 2. 删除使用 brew 安装的 node
