@@ -75,6 +75,9 @@ nvm use v16
 nvm ls  # 确定一下node 18 的最详细版本，例如是 v18.20.2
 nvm uninstall v18.20.2
 
+# 将指定版本设置为默认值（使用nvm use切换版本只在当前shell生效）
+nvm alias default v16  # 将v16设置为默认值
+
 ```
 
 6. 卸载nvm
