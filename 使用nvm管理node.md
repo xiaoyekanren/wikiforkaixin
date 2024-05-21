@@ -61,22 +61,20 @@ nvm install v18.20.2
 nvm install v16.20.2
 
 
-# 切换到node 20
+# 临时切换到node 20，当前窗口生效
 nvm use v20 
 > Now using node v20.13.1 (npm v10.5.2)
-# 切换到node 18
+# 切换到node 18，当前窗口生效
 nvm use v18
-# 切换到node 16
-nvm use v16
-> Now using node v18.20.2 (npm v10.5.0)
+# 永久切换到v16，后续所有窗口都生效
+nvm alias default v16
 
 
 # 删除node 18
 nvm ls  # 确定一下node 18 的最详细版本，例如是 v18.20.2
 nvm uninstall v18.20.2
 
-# 将指定版本设置为默认值（使用nvm use切换版本只在当前shell生效）
-nvm alias default v16  # 将v16设置为默认值
+
 
 ```
 
