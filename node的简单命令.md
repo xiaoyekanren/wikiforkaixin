@@ -19,3 +19,14 @@ npm config get registry
 # 参考链接https://www.electronjs.org/zh/docs/latest/tutorial/installation
 echo "ELECTRON_MIRROR=\"https://npmmirror.com/mirrors/electron/\"" >> ~/.zshrc
 ```
+
+
+3. npm设置代理
+``` shell
+# 设置代理
+npm config set proxy http://127.0.0.1:7890
+npm config set https-proxy http://127.0.0.1:7890
+# 取消代理
+npm config delete proxy
+npm config delete https-proxy
+```
