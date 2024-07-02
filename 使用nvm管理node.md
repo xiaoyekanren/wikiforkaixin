@@ -66,7 +66,7 @@ nvm use v20
 > Now using node v20.13.1 (npm v10.5.2)
 # 切换到node 18，当前窗口生效
 nvm use v18
-# 永久切换到v16，后续所有窗口都生效
+# 永久切换到v16，后续所有窗口都生效 (vscode重启生效)
 nvm alias default v16
 
 
